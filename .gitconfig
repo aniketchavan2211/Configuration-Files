@@ -1,0 +1,14 @@
+[safe]
+	directory = /storage/emulated/0/Git
+	directory = /storage/emulated/0/H@cking Resources
+	directory = /storage/emulated/0/Morse_Code
+	directory = /storage/emulated/0/Mac_Changer
+	directory = directory
+	directory = /storage/emulated/0/Mac_Changer
+	directory = /storage/emulated/0/MAC_Changer
+[user]
+	name = aniketchavan2211
+	email = aniketchavan2211@gmail.com
+	gmail = aniketchavan2211@gmail.com
+[init]
+	defaultBranch = master
