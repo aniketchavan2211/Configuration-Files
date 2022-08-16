@@ -14,15 +14,16 @@ pkg install git zsh proot proot-distro openssh nano wget curl python sqlite neof
 cd ~/
 
 # Oh-My-Zsh
-# wget sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+wget sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Powerline font
-# git clone https://github.com/powerline/fonts.git --depth=1
-# cd fonts
-# ./install.sh
-# cd ..
-# rm -rf fonts
+cd ~/
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
 
 # Powerline10k theme
-# git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
-# echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
