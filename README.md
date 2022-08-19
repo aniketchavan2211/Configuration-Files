@@ -210,3 +210,11 @@ motd file display text which you will see
 when opening terminal like homepage
 
 context content in it will display on terminal
+
+### Bashrc
+
+Delete the existing `bashrc` file and create link from Configuration-files repo 
+
+```bash
+rm -rf ~/../usr/etc/bash.bashrc | ln -s ~/Configuration-Files/bash.bashrc ~/../usr/etc
+```
