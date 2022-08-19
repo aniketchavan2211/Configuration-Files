@@ -151,6 +151,9 @@ And now add the plugins which we downloaded, like this
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
+### Some usefull Git plugins 
+
+
 Restart terminal 
 Edit settings using `p10k configure`
 
@@ -200,3 +203,10 @@ Edit nanorc.nanorc file in dir nanorc using text editor nano or vim
 Remove **brightnormal** 
 
 replace **with normal**
+
+### motd 
+
+motd file display text which you will see 
+when opening terminal like homepage
+
+context content in it will display on terminal
