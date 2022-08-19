@@ -179,3 +179,10 @@ cp /nanorc ~/../usr/etc/
 ```
 Copy nanorc files and paste in /etc/ directory
 Replace new with previous one.
+
+Or
+Manual edit `nanorc` file in `etc` dir
+```
+include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc"
+```
+this will select all `.nanorc` files from dir `nanorc`
