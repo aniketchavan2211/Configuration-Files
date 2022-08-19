@@ -9,6 +9,10 @@ make an shortcut using alias
 ```
 alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean                   '
 ```
+# Termux Storage Permission
+```
+termux-setup-storage
+```
 ## GitHub
 ```
 pkg install git
