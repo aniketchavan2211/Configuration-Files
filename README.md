@@ -54,7 +54,7 @@ Copy the text & paste in SSH & GPG keys section
 Link:
 [SSH AND GPG KEYS](https://github.com/settings/keys)
 
-## ZSH & Oh-My-Zsh & Powerlevel10k theme
+## Oh-My-Zsh & Powerlevel10k theme
 
 1. Install zsh shell using package manager
 
