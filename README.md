@@ -188,9 +188,10 @@ include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc"
 this will select all `.nanorc` files from dir `nanorc`
 
 
-**Fixed the error**
+**Fixed the error in nanorc.nanorc**
 
-edit nanorc.nanorc file in dir nanorc
+Edit nanorc.nanorc file in dir nanorc using text editor nano or vim
+
 
 Remove **brightnormal** 
 
