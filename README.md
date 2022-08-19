@@ -116,3 +116,34 @@ Cloning git repo
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
+
+### Download Plugins for autosuggestion and syntax highlighting
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+```
+
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+```
+
+Find the `ZSH_THME` and replace it with
+```
+ZSH_THEME="powerlevel10k/powerlevel10k
+```
+
+If you want to enable auto correction then find uncomment the line by removing `#` from
+```
+#ENABLE_CORRECTION="true"
+//to this
+ENABLE_CORRECTION="true"
+```
+Now we will add plugins so scroll down a little till you find
+```
+plugins=(git)
+```
+And now add the plugins which we downloaded, like this
+```
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
