@@ -162,10 +162,13 @@ p10k configure
 ```
 
 ## Using Git repo zshrc file 
+
+**Make sure to clone this  Configuration-Files repo**
+
 This will delete existing zshrc file create symbolic link
 
 ```zsh
-rm -rf .zshrc | ln -s ~/Configuration-Files/.zshrc ~/.zshrc
+rm -rf ~/.zshrc | ln -s ~/Configuration-Files/.zshrc ~/.zshrc
 ```
 
 ### Nano text editor
