@@ -163,11 +163,19 @@ pkg install nano
 
 **Improved Nano Syntax Highlighting FIles**
 
+Clone this repo in `etc/share/`
 ```
 git clone https://github.com/scopatz/nanorc.git $install_path
 ```
 
 **Include/append our nanorc file**
+
+directory nanorc 
+
 ```
-cat $install_path/nanorc >> /etc/nanorc
+cd nanorc
+cp /nanorc ~/../usr/etc/
+
 ```
+Copy nanorc files and paste in /etc/ directory
+Replace new with previous one.
