@@ -204,17 +204,29 @@ Remove **brightnormal**
 
 replace **with normal**
 
-### motd 
+## motd 
 
 motd file display text which you will see 
 when opening terminal like homepage
 
 context content in it will display on terminal
 
-### Bashrc
+## bashrc
 
 Delete the existing `bashrc` file and create link from Configuration-files repo 
 
 ```bash
 rm -rf ~/../usr/etc/bash.bashrc | ln -s ~/Configuration-Files/bash.bashrc ~/../usr/etc
 ```
+
+## Proot 
+
+```
+apt install proot proot-distro
+```
+
+adding NetHunter.sh  kali.sh and parrot.sh file
+```
+cp nethunter.sh kali.sh parrot.sh ~/../usr/etc/proot-distro/
+```
+
