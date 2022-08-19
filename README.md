@@ -68,7 +68,7 @@ apt install zsh
 chsh -s $(which zsh)
 ```
 
-3. Restart the machine 
+3. Restart the terminal 
 
 4. To verify 
 
@@ -147,3 +147,9 @@ And now add the plugins which we downloaded, like this
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
+Restart terminal 
+Edit settings using `p10k configure`
+
+```
+p10k configure
+```
