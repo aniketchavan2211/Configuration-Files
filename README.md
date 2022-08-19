@@ -186,3 +186,7 @@ Manual edit `nanorc` file in `etc` dir
 include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc"
 ```
 this will select all `.nanorc` files from dir `nanorc`
+**Fixed the error**
+edit nanorc.nanorc file in dir nanorc
+Remove **brightnormal** 
+replace **with normal**
