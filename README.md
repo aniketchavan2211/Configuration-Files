@@ -153,3 +153,21 @@ Edit settings using `p10k configure`
 ```
 p10k configure
 ```
+
+### Nano text editor
+
+```
+pkg install nano
+```
+
+
+**Improved Nano Syntax Highlighting FIles**
+
+```
+git clone https://github.com/scopatz/nanorc.git $install_path
+```
+
+**Include/append our nanorc file**
+```
+cat $install_path/nanorc >> /etc/nanorc
+```
