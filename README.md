@@ -13,6 +13,13 @@ alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && 
 ```
 termux-setup-storage
 ```
+## Termux Change Repo
+
+```
+termux-change-repo
+```
+
+##
 ## GitHub
 ```
 pkg install git
@@ -240,3 +247,9 @@ adding NetHunter.sh  kali.sh and parrot.sh file
 cp nethunter.sh kali.sh parrot.sh ~/../usr/etc/proot-distro/
 ```
 
+
+### Neofetch
+
+```
+apt install neofetch
+```
