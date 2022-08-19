@@ -161,6 +161,13 @@ Edit settings using `p10k configure`
 p10k configure
 ```
 
+## Using Git repo zshrc file 
+This will delete existing zshrc file create symbolic link
+
+```zsh
+rm -rf .zshrc | ln -s ~/Configuration-Files/.zshrc ~/.zshrc
+```
+
 ### Nano text editor
 
 ```
