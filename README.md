@@ -10,6 +10,9 @@ make an shortcut using alias
 alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean                   '
 ```
 ## GitHub
+```
+pkg install git
+```
 
 ### Connecting to GitHub with SSH
 
