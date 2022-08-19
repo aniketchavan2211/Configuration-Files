@@ -53,3 +53,41 @@ Copy the text & paste in SSH & GPG keys section
 
 Link:
 [SSH AND GPG KEYS](https://github.com/settings/keys)
+
+## ZSH & Oh-My-Zsh & Powerlevel10k theme
+
+1. Install zsh shell using package manager
+
+```
+apt install zsh
+```
+
+2. Make your default shell
+
+```
+chsh -s $(which zsh)
+```
+
+3. Restart the machine 
+
+4. To verify 
+
+```
+echo $SHELL
+whereis $SHELL
+which $SHELL
+```
+
+### Install Oh-My-Zsh
+
+Download using wget
+```
+pkg install wget
+```
+
+```
+wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sh install.sh
+```
+
+[ Oh My Zsh - GitHub ](https://github.com/ohmyzsh/ohmyzsh)
