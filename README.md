@@ -91,3 +91,28 @@ sh install.sh
 ```
 
 [ Oh My Zsh - GitHub ](https://github.com/ohmyzsh/ohmyzsh)
+
+### Install fonts
+
+[Powerline Fonts](https://github.com/powerline/fonts) or [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
+
+**Powerline fonts**
+
+```
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+```
+
+This clone repo
+Install it 
+And delete the repo
+
+### Powerlevel10k
+
+Cloning git repo
+```
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
