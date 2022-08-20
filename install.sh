@@ -14,6 +14,7 @@ echo -en "neofetch" >> ~/../usr/etc/bash.bashrc
 
 # nano
 pkg install nano
-cd ~/../usr/share
-git clone 
+cd ~/../usr/share/
+git clone https://github.com/scopatz/nanorc.git $install_path
 echo -en 'include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc" ' > ~/../usr/etc/nanorc
+cd ~
