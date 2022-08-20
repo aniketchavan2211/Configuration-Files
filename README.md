@@ -148,8 +148,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k
 
 If you want to enable auto correction then find uncomment the line by removing `#` from
 ```
-#ENABLE_CORRECTION="true"
-//to this
+# ENABLE_CORRECTION="true"
+# to this (Uncomment the line)
 ENABLE_CORRECTION="true"
 ```
 Now we will add plugins so scroll down a little till you find
