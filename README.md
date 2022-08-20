@@ -78,7 +78,7 @@ Copy the text & paste in SSH & GPG keys section
 Link:
 [SSH AND GPG KEYS](https://github.com/settings/keys)
 
-## Oh-My-Zsh & Powerlevel10k theme
+## Oh-My-Zsh & Powerlevel10k
 
 1. Install zsh shell using package manager
 
@@ -103,7 +103,7 @@ whereis $SHELL
 which $SHELL
 ```
 
-## Install Oh-My-Zsh
+### Install Oh-My-Zsh
 
 Download using wget
 ```
@@ -117,7 +117,7 @@ sh install.sh
 
 [ Oh My Zsh - GitHub ](https://github.com/ohmyzsh/ohmyzsh)
 
-## Install fonts
+### Install fonts
 
 [Powerline Fonts](https://github.com/powerline/fonts) or [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
@@ -135,7 +135,7 @@ This clone repo
 Install it 
 And delete the repo
 
-## Powerlevel10k
+### Powerlevel10k
 
 Cloning git repo
 ```
@@ -172,7 +172,7 @@ And now add the plugins which we downloaded, like this
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
-## Some usefull Git plugins 
+### Some usefull Git plugins 
 
 
 Restart terminal 
