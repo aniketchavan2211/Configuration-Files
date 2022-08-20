@@ -76,7 +76,8 @@ apt install zsh
 2. Make your default shell
 
 ```
-chsh -s $(which zsh)
+# chsh -s $(which zsh)
+chsh -s zsh
 ```
 
 3. Restart the terminal 
