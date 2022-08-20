@@ -186,45 +186,76 @@ p10k configure
 
 ***`Note` : You can replace `apt-get` with `apt` & `pkg`.***
 
- 1. Install python3 and python2
- ```
- apt-get install python
- apt-get install python2
- ```
-  
- 2. Install C/C++/ObjectiveC
+
+ - Install C/C++/ObjectiveC
  ```
  apt-get install clang
  ```
 
- 3. Install Java
+  - Install python3 and python2
+ ```
+ apt-get install python
+ apt-get install python2
+ ```
+
+ - Install Java
  ```
  apt-get install openjdk-17
  ```
 
- 4. Install Php
- ```
- apt-get install php
- ```
-
- 5. Install Ruby
+ - Install Ruby
  ```
  apt-get install ruby
  ```
 
- 6. Install sqlite
+ - Install Swift
+ ```
+ apt-get install swift 
+ ```
+
+ - Install dart
+ ```
+ apt-get install dart
+ ```
+ 
+ - Install Go
+ ```
+ apt-get install golang
+ ```
+
+ - Install Kotlin
+ ```
+ apt-get install Kotlin
+ ```
+
+ - Install Lua
+ ```
+ apt-get install lua51 lua52 lua53 lua54
+ ```
+
+ - Install perl
+ ```
+ apt-get install perl
+ ```
+
+ - Install Rust
+ ```
+ apt-get install rust
+ ```
+
+ - Install Php
+ ```
+ apt-get install php php7
+ ```
+
+ - Install sqlite
  ```
  apt-get install sqlite
  ```
- Run using 
- ```
- sqlite3
- ```
 
- 7. Install mariadb
+ - Install mariadb
  ```
  apt-get install mariadb 
  ```
- Run using mysql 
 
 
