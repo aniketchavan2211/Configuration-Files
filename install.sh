@@ -7,5 +7,5 @@ echo -en  "\n Welcome to Termux \n\n Hey Aniket,\n\n System info:  \n\n" > ~/../
 
 # adding neofetch to zshrc file
 pkg install neofetch
-echo -en "neofetch" > ~/../usr/etc/zshrc
+echo -en "neofetch" >> ~/../usr/etc/zshrc
 
