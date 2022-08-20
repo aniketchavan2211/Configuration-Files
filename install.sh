@@ -12,4 +12,8 @@ echo -en "neofetch" >> ~/../usr/etc/zshrc
 # adding neofetch to bash.bashrc file
 echo -en "neofetch" >> ~/../usr/etc/bash.bashrc
 
-
+# nano
+pkg install nano
+cd ~/../usr/share
+git clone 
+echo -en 'include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc" ' > ~/../usr/etc/nanorc
