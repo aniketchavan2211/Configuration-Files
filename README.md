@@ -33,7 +33,7 @@ man bash
 man zsh
 man <PACKAGE_NAME>
 ```
-## GitHub
+# GitHub
 ```
 pkg install git
 ```
@@ -103,7 +103,7 @@ whereis $SHELL
 which $SHELL
 ```
 
-### Install Oh-My-Zsh
+## Install Oh-My-Zsh
 
 Download using wget
 ```
@@ -117,7 +117,7 @@ sh install.sh
 
 [ Oh My Zsh - GitHub ](https://github.com/ohmyzsh/ohmyzsh)
 
-### Install fonts
+## Install fonts
 
 [Powerline Fonts](https://github.com/powerline/fonts) or [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
@@ -135,14 +135,14 @@ This clone repo
 Install it 
 And delete the repo
 
-### Powerlevel10k
+## Powerlevel10k
 
 Cloning git repo
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
-### Download Plugins for autosuggestion and syntax highlighting
+## Download Plugins for autosuggestion and syntax highlighting
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -172,7 +172,7 @@ And now add the plugins which we downloaded, like this
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
-### Some usefull Git plugins 
+## Some usefull Git plugins 
 
 
 Restart terminal 
@@ -181,4 +181,40 @@ Edit settings using `p10k configure`
 ```
 p10k configure
 ```
+
+# Programming languages
+ 1. Install python 
+```
+apt-get install python
+```
+2. Install C/C++/ObjectiveC
+```
+apt-get install clang
+```
+3. Install Java
+```
+apt-get install openjdk-17
+```
+4. Install Php
+```
+apt-get install php
+```
+5. Install Ruby
+```
+apt-get install ruby
+```
+6. Install sqlite
+```
+apt-get install sqlite
+```
+Run using 
+```
+sqlite3
+```
+6. Install mariadb
+```
+apt-get install mariadb 
+```
+Run using mysql 
+
 
