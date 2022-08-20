@@ -183,38 +183,48 @@ p10k configure
 ```
 
 # Programming languages
- 1. Install python 
-```
-apt-get install python
-```
-2. Install C/C++/ObjectiveC
-```
-apt-get install clang
-```
-3. Install Java
-```
-apt-get install openjdk-17
-```
-4. Install Php
-```
-apt-get install php
-```
-5. Install Ruby
-```
-apt-get install ruby
-```
-6. Install sqlite
-```
-apt-get install sqlite
-```
-Run using 
-```
-sqlite3
-```
-6. Install mariadb
-```
-apt-get install mariadb 
-```
-Run using mysql 
+
+***`Note` : You can replace `apt-get` with `apt` & `pkg`.***
+
+ 1. Install python3 and python2
+ ```
+ apt-get install python
+ apt-get install python2
+ ```
+  
+ 2. Install C/C++/ObjectiveC
+ ```
+ apt-get install clang
+ ```
+
+ 3. Install Java
+ ```
+ apt-get install openjdk-17
+ ```
+
+ 4. Install Php
+ ```
+ apt-get install php
+ ```
+
+ 5. Install Ruby
+ ```
+ apt-get install ruby
+ ```
+
+ 6. Install sqlite
+ ```
+ apt-get install sqlite
+ ```
+ Run using 
+ ```
+ sqlite3
+ ```
+
+ 7. Install mariadb
+ ```
+ apt-get install mariadb 
+ ```
+ Run using mysql 
 
 
