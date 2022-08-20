@@ -1,14 +1,16 @@
 # Configuration-Files
 
 # Updating and Upgrading Packages
+Package list and package will delete older version, install new version
 ```
 apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean
 ```
 
-make an shortcut using alias
+Making shortcut for updating and upgrading using  alias command
 ```
-alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean                   '
+alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean'
 ```
+
 # Termux Storage Permission
 ```
 termux-setup-storage
@@ -168,3 +170,4 @@ Edit settings using `p10k configure`
 ```
 p10k configure
 ```
+
