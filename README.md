@@ -21,7 +21,18 @@ termux-setup-storage
 termux-change-repo
 ```
 
-##
+# Man(ual) pages
+```
+pkg install man
+```
+
+Need help for nano, bash, zsh, others packages
+```
+man nano
+man bash
+man zsh
+man <PACKAGE_NAME>
+```
 ## GitHub
 ```
 pkg install git
