@@ -272,9 +272,9 @@ p10k configure
  ```
  apt-get install gawk
  ```
- - Install Sodility
+ - Install Solidity
  ```
- apt-get install sodility 
+ apt-get install solidity 
  ```
 
 # Shell scripting
