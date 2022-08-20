@@ -258,4 +258,28 @@ p10k configure
  apt-get install mariadb 
  ```
 
+ - Install Elixir
+ ```
+ apt install elixir
+ ```
 
+ - Install Erlang
+ ```
+ apt-get install erlang
+ ```
+
+ - Install Gawk
+ ```
+ apt-get install gawk
+ ```
+ - Install Sodility
+ ```
+ apt-get install sodility 
+ ```
+
+# Shell scripting
+
+ - bash 
+ - zsh
+ - fish
+ - tcsh (csh)
