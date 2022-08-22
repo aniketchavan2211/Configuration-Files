@@ -283,3 +283,18 @@ p10k configure
  - zsh
  - fish
  - tcsh (csh)
+
+
+## Proot 
+
+PRoot is a user-space implementation of chroot, mount --bind, and binfmt_misc. This means that users don't need any privileges or setup to do things like using an arbitrary directory as the new root filesystem, making files accessible somewhere else in the filesystem hierarchy, or executing programs built for another CPU architecture transparently through QEMU user-mode.
+
+```Shell
+apt-get install proot
+```
+
+Termux provides a package proot-distro which takes care of management of the Linux distributions inside Termux. You can install this utility by executing
+
+```Shell
+apt-get install proot-distro
+```
