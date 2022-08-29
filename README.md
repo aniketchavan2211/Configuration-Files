@@ -289,6 +289,7 @@ p10k configure
 
  ```bash
  pkg install x11-repo  # Repositories 
+ pkg tigervnc          # Setup display
  pkg install geany     # Package Geany IDE
  ```
 
