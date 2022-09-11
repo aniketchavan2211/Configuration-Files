@@ -33,7 +33,47 @@ man bash
 man zsh
 man <PACKAGE_NAME>
 ```
+
+## SSH
+
+Secure shell(ssh) Protocol 
+
+```
+pkg install openssh
+```
+
+To start ssh server in termux
+```
+sshd
+```
+SSH Server hosts port:8022
+
+Connecting SSH Server (Client side)
+```
+ssh user@ip -p 8022
+```
+
+specifying username
+To check user
+```
+whoami
+```
+
+To check IP
+```
+ifconfig
+```
+
+To change password of user
+```
+passwd
+```
+
+port `8022` for openssh
+Default port for ssh `22`
+
 ## GitHub
+
 ```
 pkg install git
 ```
