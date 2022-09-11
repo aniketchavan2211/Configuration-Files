@@ -1,6 +1,6 @@
-# Configuration-Files
+## Configuration-Files
 
-# Updating and Upgrading Packages
+## Updating and Upgrading Packages
 Package list and package will delete older version, install new version
 ```
 apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean
@@ -11,17 +11,17 @@ Making shortcut for updating and upgrading using  alias command
 alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean'
 ```
 
-# Termux Storage Permission
+## Termux Storage Permission
 ```
 termux-setup-storage
 ```
-## Termux Change Repo
+### Termux Change Repo
 
 ```
 termux-change-repo
 ```
 
-# Man(ual) pages
+## Man(ual) pages
 ```
 pkg install man
 ```
@@ -33,17 +33,17 @@ man bash
 man zsh
 man <PACKAGE_NAME>
 ```
-# GitHub
+## GitHub
 ```
 pkg install git
 ```
 
-### Connecting to GitHub with SSH
+#### Connecting to GitHub with SSH
 
 Reference:
  [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-### Generating a new SSH key and adding it to the ssh-agent
+#### Generating a new SSH key and adding it to the ssh-agent
 
 Reference:
  [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -51,7 +51,7 @@ Reference:
  Select `linux`
  Follows the Commands
 
-### Generating a new SSH key
+#### Generating a new SSH key
 ```
 ssh-keygen -t ed25519 -C "aniketchavan2211@gmail.com"
 ```
@@ -64,7 +64,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
 
-### Adding a new SSH key to your account
+#### Adding a new SSH key to your account
 ```
 cat ~/ssh/id_ed25519.pub
 ```
@@ -78,7 +78,7 @@ Copy the text & paste in SSH & GPG keys section
 Link:
 [SSH AND GPG KEYS](https://github.com/settings/keys)
 
-## Oh-My-Zsh & Powerlevel10k
+### Oh-My-Zsh & Powerlevel10k
 
 1. Install zsh shell using package manager
 
@@ -103,7 +103,7 @@ whereis $SHELL
 which $SHELL
 ```
 
-### Install Oh-My-Zsh
+#### Install Oh-My-Zsh
 
 Download using wget
 ```
@@ -117,7 +117,7 @@ sh install.sh
 
 [ Oh My Zsh - GitHub ](https://github.com/ohmyzsh/ohmyzsh)
 
-### Install fonts
+#### Install fonts
 
 [Powerline Fonts](https://github.com/powerline/fonts) or [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
@@ -135,14 +135,14 @@ This clone repo
 Install it 
 And delete the repo
 
-### Powerlevel10k
+#### Powerlevel10k
 
 Cloning git repo
 ```
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 ```
 
-## Download Plugins for autosuggestion and syntax highlighting
+### Download Plugins for autosuggestion and syntax highlighting
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
@@ -172,7 +172,7 @@ And now add the plugins which we downloaded, like this
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
-### Some usefull Git plugins 
+#### Some usefull Git plugins 
 
 
 Restart terminal 
@@ -182,7 +182,7 @@ Edit settings using `p10k configure`
 p10k configure
 ```
 
-# Programming languages
+## Programming languages
 
 ***`Note` : You can replace `apt-get` with `apt` & `pkg`.***
 
@@ -277,23 +277,30 @@ p10k configure
  apt-get install solidity 
  ```
 
-# Shell scripting
+## Shell scripting
 
  - bash 
  - zsh
  - fish
  - tcsh (csh)
 
+## Packages Repository
 
-# Geany IDE
+```
+pkg install x11-repo
+pkg install root-repo
+```
+
+## Geany IDE
 
  ```bash
  pkg install x11-repo  # Repositories 
- pkg tigervnc          # Setup display
+ pkg install tigervnc  # Setup display
+ pkg install openbox   # Windows Manager 
  pkg install geany     # Package Geany IDE
  ```
 
-# Proot 
+## Proot 
 
 PRoot is a user-space implementation of chroot, mount --bind, and binfmt_misc. This means that users don't need any privileges or setup to do things like using an arbitrary directory as the new root filesystem, making files accessible somewhere else in the filesystem hierarchy, or executing programs built for another CPU architecture transparently through QEMU user-mode.
 
