@@ -72,6 +72,38 @@ passwd
 port `8022` for openssh
 Default port for ssh `22`
 
+## ftp
+
+To start server Install busybox and termux-services
+```
+pkg install busybox termux-services
+```
+
+To enable ftp service
+```
+sv-enable ftpd
+```
+
+To open ftp service 
+```
+sv up ftpd
+```
+
+To close ftp service
+```
+sv down ftpd
+```
+
+Client side ftp
+
+Connect to ftp server 
+```
+ftp <ip> -p 8021
+```
+
+Default port for ftp is: `21`
+But for this is termux-service: `8021`
+
 ## GitHub
 
 ```
