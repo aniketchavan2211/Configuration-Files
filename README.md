@@ -34,6 +34,20 @@ man zsh
 man <PACKAGE_NAME>
 ```
 
+# Hush Login
+
+```
+touch ~/.hushlogin
+```
+
+`touch` :- command will create file,
+`~/` :- specify the home directory,
+`.` :- hidden file
+`hushlogin` :- file will disable motb
+
+**deleting the hushlogin file will enable hushlogin(Homepage)**
+
+
 ## SSH
 
 Secure shell(ssh) Protocol 
