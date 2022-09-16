@@ -278,6 +278,18 @@ p10k configure
  apt-get install clang
  ```
 
+ To run `C` program 
+ ```
+ clang file.c
+ ./a.out
+ ```
+
+ To run `C++` program
+ ```
+ c++ file.cpp
+ ./a.out
+ ```
+
   - Install python3 and python2
  ```
  apt-get install python
