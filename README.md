@@ -34,7 +34,7 @@ man zsh
 man <PACKAGE_NAME>
 ```
 
-# Hush Login
+## Hush Login
 
 ```
 touch ~/.hushlogin
