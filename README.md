@@ -389,20 +389,6 @@ pkg install x11-repo
 pkg install root-repo
 ```
 
-## Geany IDE
-
- ```bash
- pkg install x11-repo  # Repositories 
- pkg install tigervnc  # Setup display
- pkg install openbox   # Windows Manager 
- pkg install geany     # Package Geany IDE
- ```
-
- To open Geany
- ```
- geany
- ```
-
 ## Proot 
 
 PRoot is a user-space implementation of chroot, mount --bind, and binfmt_misc. This means that users don't need any privileges or setup to do things like using an arbitrary directory as the new root filesystem, making files accessible somewhere else in the filesystem hierarchy, or executing programs built for another CPU architecture transparently through QEMU user-mode.
