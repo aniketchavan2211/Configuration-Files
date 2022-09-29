@@ -12,6 +12,9 @@ alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && 
 ```
 
 ## Termux Storage Permission
+
+**If you already give permission then type 'n' for no not to create new home directory for termux**
+
 ```
 termux-setup-storage
 ```
