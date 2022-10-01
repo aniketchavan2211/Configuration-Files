@@ -124,7 +124,11 @@ But for this is termux-service: `8021`
 ## GitHub
 
 ```
-pkg install git
+apt-get install git
+```
+
+```
+apt-get install openssh
 ```
 
 #### Connecting to GitHub with SSH
