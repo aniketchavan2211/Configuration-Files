@@ -170,10 +170,19 @@ Link:
 **Some Important Commands**
 ```
 git init 
-git config --global user.name aniketchavan2211
-git config --global user.email aniketchavan2211@gmail.com
-git clone <url include https/ssh link>
+```
 
+```
+git config --global user.name aniketchavan2211
+```
+
+```
+git config --global user.email aniketchavan2211@gmail.com
+```
+
+```
+git clone <url include https/ssh link>
+```
 
 ```
 git add .
@@ -186,6 +195,16 @@ git commit -m 'msg`
 ```
 git push -u origin master 
 git push
+```
+
+```
+git pull
+```
+
+```
+# Deleting dir/files
+rm -rf <dir/files>
+git rm <dir/files>
 ```
 
 
