@@ -167,6 +167,28 @@ Copy the text & paste in SSH & GPG keys section
 Link:
 [SSH AND GPG KEYS](https://github.com/settings/keys)
 
+**Some Important Commands**
+```
+git init 
+git config --global user.name aniketchavan2211
+git config --global user.email aniketchavan2211@gmail.com
+git clone <url include https/ssh link>
+
+
+```
+git add .
+```
+
+```
+git commit -m 'msg`
+```
+
+```
+git push -u origin master 
+git push
+```
+
+
 ### Oh-My-Zsh & Powerlevel10k
 
 1. Install zsh shell using package manager
