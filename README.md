@@ -155,7 +155,7 @@ ssh-add ~/.ssh/id_ed25519
 
 #### Adding a new SSH key to your account
 ```
-cat ~/ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
 
 Copy the text & paste in SSH & GPG keys section
