@@ -211,6 +211,10 @@ rm -rf <dir/files>
 git rm <dir/files>
 ```
 
+```
+git log
+# Commits of Logs
+```
 
 ### Oh-My-Zsh & Powerlevel10k
 
