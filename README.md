@@ -128,7 +128,7 @@ apt-get install git
 ```
 
 ```
-apt-get install openssh
+apt-get install openssh -y
 ```
 
 #### Connecting to GitHub with SSH
@@ -221,7 +221,7 @@ git log
 1. Install zsh shell using package manager
 
 ```
-apt install zsh
+apt install zsh -y
 ```
 
 2. Make your default shell
