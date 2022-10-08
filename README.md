@@ -11,6 +11,23 @@ Making shortcut for updating and upgrading using  alias command
 alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean'
 ```
 
+----
+
+- For bash user
+```
+echo "alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean'" >> $PREFIX/etc/bash.bashrc
+```
+
+- For zsh user
+```
+echo "alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade -y && apt-get update -y && apt-get upgrade -y && apt autoremove && pkg autoclean'" >> $PREFIX/etc/zshrc
+```
+
+> Command will add those lines to bash.bashrc and zshrc.  
+> Alias will be permanent, 
+> to change edit bash.bashrc and zshrc file 
+
+
 ## Termux Storage Permission
 
 **If you already give permission then type 'n' for no not to create new home directory for termux**
