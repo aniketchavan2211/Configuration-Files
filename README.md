@@ -235,6 +235,10 @@ chsh -s zsh
 
 4. To verify 
 
+You will see `$` is replace by '%' 
+`$` means bash ['#' for bash root user]
+`%` means zsh
+
 ```
 echo $SHELL
 whereis $SHELL
