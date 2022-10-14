@@ -27,7 +27,19 @@ echo "alias UC='apt update -y && apt upgrade -y && pkg update -y && pkg upgrade 
 > Alias will be permanent, 
 > to change edit bash.bashrc and zshrc file 
 
+## Bash Prompt 
 
+Default Bash Prompt
+
+```bash
+# RED
+PS1='\033[1;99m┌──(\e[1;31m\u@\h\e[0m\033[1;99m)—[\[\e[1;34m\]\w\[\e[0m\]\033[1;99m] \n\033[1;99m└─\[\e[0;97m\]\$\[\e[0m\]  '
+```
+
+```bash
+# BLUE
+PS1='\033[1;99m┌──(\e[1;34m\u@\h\e[0m\033[1;99m)—[\[\e[1;32m\]\w\[\e[0m\]\033[1;99m] \n\033[1;99m└─\[\e[0;97m\]\$\[\e[0m\] '
+```
 ## Termux Storage Permission
 
 **If you already give permission then type 'n' for no not to create new home directory for termux**
