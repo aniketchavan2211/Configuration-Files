@@ -1,8 +1,42 @@
+include "/data/data/com.termux/files/usr/share/nano/*.nanorc"
+
+# set element fgcolor,bgcolor
+
+set titlecolor brightwhite,blue
+
+set statuscolor brightwhite,green
+
+set errorcolor brightwhite,red
+
+set selectedcolor brightwhite,magenta
+
+set stripecolor ,yellow
+
+set numbercolor cyan
+
+set keycolor cyan
+
+set functioncolor green
+
+set linenumbers
+
+
+
+
+
+
+
+
+
+###########################################################
+
 #include "/data/data/com.termux/files/usr/share/nano/*.nanorc"
 # /data/data/com.termux/files/usr/share/nanorc
 
 # All nanorc files are active
-include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc"
+## include "/data/data/com.termux/files/usr/share/nanorc/*.nanorc"
+
+# Particularly nanorc files 
 
 #include "~/.nano/apacheconf.nanorc"
 #include "~/.nano/arduino.nanorc"
