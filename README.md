@@ -364,13 +364,13 @@ p10k configure
  apt-get install clang
  ```
 
- To run `C` program 
+1.  **To run `C` program**
  ```
  clang file.c
  ./a.out
  ```
 
- To run `C++` program
+2.  **To run `C++` program**
  ```
  c++ file.cpp
  ./a.out
@@ -378,8 +378,8 @@ p10k configure
 
   - Install python3 and python2
  ```
- apt-get install python
- apt-get install python2
+# Note python Package will installed Python3.x.x
+ apt-get install python2 python
  ```
 
  - Install Java
