@@ -356,6 +356,8 @@ p10k configure
 
 ## Programming languages
 
+[Development Environment website](https://wiki.termux.com/wiki/Development_Environments)
+
 ***`Note` : You can replace `apt-get` with `apt` & `pkg`.***
 
 
