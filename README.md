@@ -490,3 +490,49 @@ Termux provides a package proot-distro which takes care of management of the Lin
 ```Shell
 apt-get install proot-distro
 ```
+
+
+## Database 
+
+### MySQL Database
+
+Install Mariadb Package
+```bash
+apt-get install mariadb
+```
+Start MySQL Server
+```
+mysqld
+```
+Stop MySQL Server
+```
+pkill sql
+```
+
+Connect MySQL client prompt Command line
+```
+mysql
+```
+
+Command will execute as root user
+```
+mysql -u $(whoami)
+```
+
+Set Password for Root User
+```
+use mysql;
+```
+```
+set password for 'root'@'localhost'=password('passwd');
+```
+
+```
+flush privileges;
+quit;
+```
+
+```
+
+mysql -u root -p
+```
