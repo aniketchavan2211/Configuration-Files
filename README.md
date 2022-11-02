@@ -378,9 +378,9 @@ p10k configure
  ./a.out
  ```
 
-  - Install python3 and python2
+  - Install python2 and python3
  ```python
- # Note python Package will installed Python3.x.x
+ # Note python Package will installed Python2.x.x and Python3.x.x
  apt-get install python2 python
  ```
 
