@@ -362,24 +362,24 @@ p10k configure
 
 
  - Install C/C++/ObjectiveC
- ```clang
+ ```bash
  apt-get install clang
  ```
 
 1.  **To run `C` program**
- ```clang
+ ```bash
  clang file.c
  ./a.out
  ```
 
 2.  **To run `C++` program**
- ```cpp
+ ```bash
  c++ file.cpp
  ./a.out
  ```
 
   - Install python2 and python3
- ```python
+ ```bash
  # Note python Package will installed Python2.x.x and Python3.x.x
  apt-get install python2 python
  ```
@@ -426,76 +426,76 @@ p10k configure
 
 
  - Install Ruby
- ```ruby
+ ```bash
  apt-get install ruby
  ```
 
  - Install Swift
- ```swift
+ ```bash
  apt-get install swift 
  ```
 
  - Install dart
- ```dart
+ ```bash
  apt-get install dart
  ```
  
  - Install Go
- ```go
+ ```bash
  apt-get install golang
  ```
 
  - Install Kotlin
- ```kotlin
+ ```bash
  apt-get install Kotlin
  ```
 
  - Install Lua
- ```lua
+ ```bash
  apt-get install lua51 lua52 lua53 lua54
  ```
 
  - Install perl
- ```perl
+ ```bash
  apt-get install perl
  ```
 
  - Install Rust
- ```rust
+ ```bash
  apt-get install rust
  ```
 
  - Install Php
- ```php
+ ```bash
  apt-get install php php7
  ```
 
  - Install sqlite
- ```sqlite
+ ```bash
  apt-get install sqlite
  ```
 
  - Install mariadb
- ```mariadb
+ ```bash
  apt-get install mariadb 
  ```
 
  - Install Elixir
- ```elixir
+ ```bash
  apt install elixir
  ```
 
  - Install Erlang
- ```erlang
+ ```bash
  apt-get install erlang
  ```
 
  - Install Gawk
- ```gawk
+ ```bash
  apt-get install gawk
  ```
  - Install Solidity
- ```solidity
+ ```bash
  apt-get install solidity 
  ```
 
