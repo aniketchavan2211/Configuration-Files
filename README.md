@@ -399,14 +399,31 @@ p10k configure
  java hello
  ```
 
-```bash
-apt-get install ecj dx
-```
+ ```bash
+ apt-get install ecj dx
+ ```
 
-To COMPILE
-```
-ecj hello.java
-```
+ 1. To COMPILE
+ ```
+ ecj hello.java
+ ```
+
+ 2. To COMPILE to `.dex` file
+ ```bash
+ dx --dex --output=dexfile.dex classname.class
+
+ # EXAMPLE:
+ dx --dex --output=hello.dex hello.class
+ ```
+ 3. To RUN in Dalvikvm
+ ```bash
+ # DON'T add .class after classname
+ dalvikvm -cp dexfile.dex classname 
+
+ # EXAMPLE:
+ dalvikvm -cp hello.dex hello
+ ```
+
 
  - Install Ruby
  ```ruby
