@@ -498,6 +498,11 @@ p10k configure
  ```bash
  apt-get install solidity 
  ```
+ 
+ - Install Deno
+ ```bash
+ apt-get install deno
+ ```
 
 ## Shell scripting
 
