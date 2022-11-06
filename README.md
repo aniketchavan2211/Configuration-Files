@@ -385,9 +385,28 @@ p10k configure
  ```
 
  - Install Java
- ```java
+ ```bash
  apt-get install openjdk-17
  ```
+
+ 1. To COMPLIE
+ ```bash
+ javac file.java
+ ```
+
+ 2. To RUN
+ ```bash
+ java hello
+ ```
+
+```bash
+apt-get install ecj dx
+```
+
+To COMPILE
+```
+ecj hello.java
+```
 
  - Install Ruby
  ```ruby
