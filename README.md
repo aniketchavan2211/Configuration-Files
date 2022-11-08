@@ -511,6 +511,25 @@ p10k configure
  - fish
  - tcsh (csh)
 
+## Nano Text Editor
+```bash
+apt-get install nano
+```
+
+```bash
+# python.nanorc
+wget https://raw.githubusercontent.com/scopatz/nanorc/master/python.nanorc
+
+# bash.nanorc / sh.nanorc
+wget https://raw.githubusercontent.com/scopatz/nanorc/master/sh.nanorc
+
+# c.nanorc / cpp.nanorc
+wget https://raw.githubusercontent.com/scopatz/nanorc/master/c.nanorc
+
+# java.nanorc
+wget https://raw.githubusercontent.com/scopatz/nanorc/master/java.nanorc
+```
+
 ## Packages Repository
 
 ```
