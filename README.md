@@ -361,7 +361,7 @@ p10k configure
 ***`Note` : You can replace `apt-get` with `apt` & `pkg`.***
 
 
-### Install C/C++/ObjectiveC
+### C/C++/ObjectiveC
  ```bash
  apt-get install clang
  ```
@@ -378,13 +378,13 @@ p10k configure
  ./a.out
  ```
 
-### Install python2 and python3
+### python2 and python3
  ```bash
  # Note python Package will installed Python2.x.x and Python3.x.x
  apt-get install python2 python
  ```
 
-### Install Java
+### Java
  ```bash
  apt-get install openjdk-17
  ```
@@ -425,81 +425,81 @@ p10k configure
  ```
 
 
-### Install Ruby
+### Ruby
  ```bash
  apt-get install ruby
  ```
 
-### Install Swift
+### Swift
  ```bash
  apt-get install swift 
  ```
 
-### Install dart
+### dart
  ```bash
  apt-get install dart
  ```
  
-### Install Go
+### Go
  ```bash
  apt-get install golang
  ```
 
-### Install Kotlin
+### Kotlin
  ```bash
  apt-get install Kotlin
  ```
 
-### Install Lua
+### Lua
  ```bash
  apt-get install lua51 lua52 lua53 lua54
  ```
 
-### Install perl
+### Perl
  ```bash
  apt-get install perl
  ```
 
-### Install Rust
+### Rust
  ```bash
  apt-get install rust
  ```
 
-### Install Php
+### PHP
  ```bash
  apt-get install php php7
  ```
 
-### Install sqlite
+### SQLite
  ```bash
  apt-get install sqlite
  ```
 
-### Install mariadb
+### mariadb
  ```bash
  apt-get install mariadb 
  ```
 
-### Install Elixir
+### Elixir
  ```bash
  apt install elixir
  ```
 
-### Install Erlang
+### Erlang
  ```bash
  apt-get install erlang
  ```
 
-### Install Gawk
+### Gawk
  ```bash
  apt-get install gawk
  ```
-### Install Solidity
+### Solidity
  ```bash
  apt-get install solidity 
  ```
  
-### Install Deno
+### Deno
  ```bash
  apt-get install deno
  ```
