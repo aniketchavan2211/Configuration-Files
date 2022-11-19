@@ -361,7 +361,7 @@ p10k configure
 ***`Note` : You can replace `apt-get` with `apt` & `pkg`.***
 
 
- - Install C/C++/ObjectiveC
+### Install C/C++/ObjectiveC
  ```bash
  apt-get install clang
  ```
@@ -378,13 +378,13 @@ p10k configure
  ./a.out
  ```
 
-  - Install python2 and python3
+### Install python2 and python3
  ```bash
  # Note python Package will installed Python2.x.x and Python3.x.x
  apt-get install python2 python
  ```
 
- - Install Java
+### Install Java
  ```bash
  apt-get install openjdk-17
  ```
@@ -425,81 +425,81 @@ p10k configure
  ```
 
 
- - Install Ruby
+### Install Ruby
  ```bash
  apt-get install ruby
  ```
 
- - Install Swift
+### Install Swift
  ```bash
  apt-get install swift 
  ```
 
- - Install dart
+### Install dart
  ```bash
  apt-get install dart
  ```
  
- - Install Go
+### Install Go
  ```bash
  apt-get install golang
  ```
 
- - Install Kotlin
+### Install Kotlin
  ```bash
  apt-get install Kotlin
  ```
 
- - Install Lua
+### Install Lua
  ```bash
  apt-get install lua51 lua52 lua53 lua54
  ```
 
- - Install perl
+### Install perl
  ```bash
  apt-get install perl
  ```
 
- - Install Rust
+### Install Rust
  ```bash
  apt-get install rust
  ```
 
- - Install Php
+### Install Php
  ```bash
  apt-get install php php7
  ```
 
- - Install sqlite
+### Install sqlite
  ```bash
  apt-get install sqlite
  ```
 
- - Install mariadb
+### Install mariadb
  ```bash
  apt-get install mariadb 
  ```
 
- - Install Elixir
+### Install Elixir
  ```bash
  apt install elixir
  ```
 
- - Install Erlang
+### Install Erlang
  ```bash
  apt-get install erlang
  ```
 
- - Install Gawk
+### Install Gawk
  ```bash
  apt-get install gawk
  ```
- - Install Solidity
+### Install Solidity
  ```bash
  apt-get install solidity 
  ```
  
- - Install Deno
+### Install Deno
  ```bash
  apt-get install deno
  ```
@@ -551,6 +551,14 @@ Termux provides a package proot-distro which takes care of management of the Lin
 apt-get install proot-distro
 ```
 
+## Docker
+
+Installing Docker in Termux.
+
+```bash
+apt-get install root-repo
+apt-get install docker
+```
 
 ## Database 
 
