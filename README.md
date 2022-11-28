@@ -604,3 +604,13 @@ quit;
 
 mysql -u root -p
 ```
+
+## Command Prompt (CMD)
+```bash 
+# install linux system
+# proot-distro
+# run
+sudo apt install wine -y
+wine cmd
+```
+
