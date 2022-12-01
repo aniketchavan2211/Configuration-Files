@@ -605,7 +605,19 @@ quit;
 mysql -u root -p
 ```
 
-## Command Prompt (CMD)
+## Windows Command Prompt (CMD)
+
+To run CMD in Termux, you need to
+Install Linux Distro.
+
+Install other Distro by,
+```bash
+apt install proot proot-distro
+proot-distro list # list Linux distro
+```
+Install one of them,
+and also update and upgrade them.
+
 ```bash 
 # install linux system
 # proot-distro
@@ -614,3 +626,6 @@ sudo apt install wine -y
 wine cmd
 ```
 
+Install wine package,
+Made for linux system
+To run windows software.
