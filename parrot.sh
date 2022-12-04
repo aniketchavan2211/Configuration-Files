@@ -1,4 +1,4 @@
-DISTRO_NAME="ParrotOs"
+DISTRO_NAME="Parrot Security OS"
 
 
 
